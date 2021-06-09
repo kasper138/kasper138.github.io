@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo&family=Reggae+One&display=swap" rel="stylesheet"> 
+    <title>My Project</title>
+</head>
+<body>
+    <a name="top"></a>
+    <h1 id="title">My 1st Website</h1>
+<!-- Navigation -->
+    <div class="nav-container">
+        <nav id="navigation">
+            <ul>
+                <li><a href="#about-me">Sub-heading: h2</a></li>
+                <li><a href="#services">Another sub-heading</a></li>
+                <li><a href="#contact-us">Last sub-heading</a></li>
+            </ul>
+        </nav>
+    </div>
+    <p class="para-text"> This is a dive into mostly <em>CSS</em> and some <em>HTML</em>, here showing an <b>em</b> tag on "html" and "css" with a <b>b</b> tag on "em".
+        A <em>list-style: none</em> is added to nav items to remove the "bullet points". <b>Border Radius</b> rounds out the corners on <b>navigation</b> background image.
+        <b>Font-weight</b>, <b>font-size</b>, and <b>line-height</b> are added to 
+        nav items for thicker lines, bigger lettering, and adds space between titles, respectively.
+         External fonts are added for different styles of lettering. <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals" target="_blank">Read more...</a></p>
+    <section id="service-image">Radial Gradient: Circle</section>
+    <p><b>Radial Gradient</b> is an example of the color change possible and one of the shapes which to apply these changes. Also has a hover added.
+        These shown are just a few of the colors available to choose from. <a href="https://color.adobe.com/create/color-wheel" target="_blank">For more options...</a></p>
+<!-- Sub Heading: h2 -->
+    <h2 class="subtitle" id="about-me">Sub-heading: h2</h2>
+    <section class="about-me-container">
+        <img  id="about-me-img" style="order: 1;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette.wikia.nocookie.net%2Fevil%2Fimages%2F3%2F34%2FAlbedo_(Overlord).jpg%2Frevision%2Flatest%3Fcb%3D20180609145148%26path-prefix%3Dpl&f=1&nofb=1" alt="">
+        <article class="article" style="order: 2;">A thick solid <b>border</b> with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding" target="_blank"><b>padding</b></a> and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin" target="_blank"><b>margin</b></a> 
+        to increase space between content and border, and space between border and rest of page, respectively.
+        An <em>image</em> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">
+        attribute selector</a> was added to target specific images with certain values.
+        <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout" target="_blank"> To learn more....</a>
+        <img id="article-image" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.1026834243.7707%2Fflat%2C750x%2C075%2Cf-pad%2C750x1000%2Cf8f8f8.jpg&f=1&nofb=1" alt="">
+        </article>
+        <img id="about-me-img2" style="order: 3;" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2Fsl8kwxned0d41.png&f=1&nofb=1" alt="">
+    </section>
+    <p class="para-text">A couple of list options are, <b>ordered</b>: items starting with a number, and
+        <b>unordered</b>: items with a "bullet point" in front of them.
+    <span class="italics">Lists</span> (in a <b>span</b> which is inline styling), can be "nested": one inside another. An example of nested lists: unordered, ordered, and both:
+    <ul class="list-container">
+        <li class="list-item">First list Item</li>
+        <li class="list-item">Second list item</li>
+            <ol>
+                <li class="list-item">Numbered list item, One</li>
+                <li class="list-item">Numbered list item, Two</li>
+            </ol>
+        <li class="list-item">Third list item</li>
+        <li><ol>
+            <li>And a numbered list item inside an ordered list inside an unordered list</li>
+        </ol></li>
+    </ul>
+        The example above has its <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance" target="_blank">
+        <b>Inheritance</b></a> styled by "targeting" its "descendants": child elements.
+    </p>
+<!-- Another Sub Heading -->
+    <h2 class="subtitle" id="services">Another-sub-heading</h2>
+    <a href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.zerochan.net%2FAlbedo.(Overlord).full.2402128.png&f=1&nofb=1"
+    class="link" target="_blank">Bow your head trash!</a>
+    <p>An <em>anchor</em> with a link to an image file that opens in a new tab. It is styled with <em>underline</em>
+        and <em>overline</em>, and color change for "visited" and "unvisited". The <em>h2 - Another-Sub-Heading</em> is styled with <b>linear-gradient</b>: a fade to 'X' direction, bold to no color. 
+        A <b>:hover</b>: a <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Pseudo-classes_and_pseudo-elements" target="_blank">pseudo-classes and elements</a>
+        added to the <em>h2</em> CSS selector to flip the <em>linear-gradient</em> R to L, and font color. The other <em>h2</em>
+        elements only change color when moused over. </p>
+<!--Table  -->
+    <table border="1" class="site-table">
+        <thead>
+            <tr>
+                <td>Likes</td>
+                <td>Dislikes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ains-sama</td>
+                <td>Humans</td>
+            </tr>
+            <tr>
+                <td>Fear</td>
+                <td>Disobediance</td>
+            </tr>
+            <tr>
+                <td>Glory to Nazarick</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>Above is a <b>table</b> with four rows. The column items are targeted with the <b>li</b> selector 
+        for a color change to the descendents last children, and "only" children. The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child" target="_blank">
+        nth-child(1)</a>: picks the 1st child from start with a color change. The <em>thead</em> has 
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform" target="_blank">text-transform: uppercase</a>, 
+        increased <b>font-weight</b>, and <b>font-size.</b></p>
+    
+<!-- Image Anchor -->
+    <a href="https://overlordmaruyama.fandom.com/wiki/Albedo" target="_blank">
+        <section id="service-imagetwo">A double lined border and image used as a link</section>
+    </a>
+
+<!-- Chart and Grid Section -->
+    <div class="chart-container">
+    <section class="flex-container">
+        <div class="container-item" style="order: 1; flex: 1 1 100px;
+        align-self: center;">A</div>
+        <div class="container-item" style="order: 2; flex: 1 3 100px;
+        align-self: flex-end;">B</div>
+        <div class="container-item" style="order: 3; flex: 3 1 100px;
+        align-self: flex-start;">C</div>
+    </section>
+    <section class="grid-container">
+        <div class="grid-item-one" style="background: cornflowerblue;">1</div>
+        <div class="grid-item-two" style="background: cyan;">2- margin added, color changed</div>
+        <div class="grid-item-three" style="background: darkcyan;">3</div>
+        <div class="grid-item-four">4</div>
+        <div class="grid-item-five" style="background: purple;"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">5</a></div>
+    </section>
+    <p class="chart-text">Above are displays of <em>flexbox and grid</em>. Numerous styles were added: margin, text,
+        align (vertical), justify (horizontal), <em>gap</em> is used for row/column, added an image to a grid item and to flexbox background, mouse over link for tooltip <em><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank" title="But wait... Each word is a different link">Bobby</a></em> 
+        <em><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/grid" target="_blank" title="...there's more! Each word is a different link">Flay</a></em>.
+    </p>
+    </div>
+    <div class="image-double">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.zerochan.net%2FAlbedo.%2528Overlord%2529.full.2280663.png&f=1&nofb=1" alt="" style="order: 1;">
+        <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2Fb7%2F31%2F66%2Fb73166f0a3ee609050128f21a161d326.jpg&f=1&nofb=1" alt="" style="order: 2;">
+    </div>
+    <p><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow" target="_blank">Flex-grow</a>, <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink" target="_blank">
+        flex-shrink</a> (default value is 1), and <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis" target="_blank">flex-basis</a> are added to <em>.double-image</em> styling. As well 
+        as used in the <em>flexbox</em> displayed above, which uses the <b>flex</b> property.</p>
+    <aside>For a greater understanding <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS: Casacading Style Sheets</a>, And
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML: HyperText Markup Language</a> are the most comprehensive sites.
+    </aside>
+<!-- Last Sub Heading -->
+    <footer>
+    <h2 class="subtitle" id="contact-us">Last Sub-heading</h2>
+    <p>Kneel down in service or be disposed of like the rest!</p>
+    <form>
+        <input type="text" placeholder="Full Name" class="form-input">
+        <input type="email" placeholder="Email" class="form-input">
+        <textarea></textarea>
+        <button class="submit-button">Submit NOW!</button>
+    </form>
+    <p>Footer contains a <em><b>form</b></em>, background change, and a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition" target="_blank">
+    transition</a> property styling on the submit button. This is my 1st webpage up to the point of study, and missing some CSS and Javascript. </p>
+    </footer>
+    <a href="#top" title="Beam me up Scotty">back to top</a>
+</body>
+</html>

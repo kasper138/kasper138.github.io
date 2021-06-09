@@ -1,0 +1,353 @@
+body {
+    background: rgb(255, 230, 255, 0.5);
+    font-family: 'KoHo', sans-serif;
+    text-align: justify;
+    font-size: 1.15em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+h1 {
+    color: red;
+    font-family: 'Reggae One', cursive;
+}
+
+h2 {
+    font-family: 'Reggae One', cursive;
+    text-transform: uppercase;
+}
+
+h2:hover {
+    color: black;
+}
+
+.subtitle {
+    color: rgb(59, 59, 182);
+    background: linear-gradient(to right, rgb(255, 0, 0), rgba(255, 0, 0, 0));
+    height: 1.1em;
+    background-size: cover;
+}
+
+.italics {
+    font-style: oblique;
+}
+
+#title {
+    font-weight: 600;
+}
+
+.nav-container {
+    display: flex;
+    width: 400px;
+    justify-content: center; 
+}
+
+#navigation {
+    display: flex;
+    background: url("https://s3.zerochan.net/Albedo.%28Overlord%29.240.2881503.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-items: center; 
+    line-height: 75px; 
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.nav-container li {
+    color: rgb(214, 18, 18) ;
+    list-style: none;
+}
+
+
+a:visited {
+    color: crimson;
+}
+
+.about-me-container {
+    display: flex;
+    margin-bottom: 20px;
+    align-content: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .about-me-container {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 950px) {
+    .about-me-container {
+        flex-direction: row;
+    }
+}
+
+#about-me-img {
+    padding: 20px;
+    height: 500px;
+}
+
+#about-me-img2 {
+    padding: 20px;
+    height: 500px;
+}
+
+.article {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+ }
+
+#article-image {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+#services {
+    background: linear-gradient(to left, rgb(255, 0, 0), rgba(255, 0, 0, 0));
+}
+
+#services:hover {
+    background: linear-gradient(to right, rgb(255, 0, 0), rgba(255, 0, 0, 0));
+}
+
+#service-image {
+    height: 350px;
+    width: 50%;
+    background: radial-gradient(circle, purple, red 20%, green 40%, blue 60%, black 10%);
+    font-size: larger;
+    color: burlywood;
+    border: 5px solid black;
+}
+
+#service-image:hover {
+    background: radial-gradient(circle, blue 20%, purple 40%, green 50%);
+}
+
+#service-imagetwo {
+    height: 350px;
+    width: 70vw;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-BahSsDTZLj0%2FWz7hiqoDngI%2FAAAAAAAAGxU%2FQ5KU-AD2MPcxddc0gYvvomvZzA0WzRFmQCLcBGAs%2Fs1600%2FOverlord%252B-%252BAlbedo.jpg&f=1&nofb=1');
+    border: 10px double crimson;
+    background-size: cover;
+    margin: 70px;
+    font-weight: 700;
+}
+
+
+
+li:last-child {
+    color: steelblue;
+}
+
+li:only-child { 
+    color: violet;
+} 
+
+thead {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+td:nth-last-child(1) {
+    color: purple;
+}
+
+td:only-child {
+    color: coral;
+}
+
+.link {
+    text-decoration: underline overline;
+}
+
+.link:link {
+    color: royalblue;   
+}
+
+.link:visited {
+    color: palevioletred;
+}
+
+h2 + a {
+    font-size: x-large;
+    margin: 5px 10px;
+}
+
+textarea ~ button {
+    color: sienna;
+}
+
+.list-container {
+    margin-top: 0;
+}
+
+ul > li {
+    color: green;
+}
+
+img[src*="https://external-content.duckduckgo.com/iu"] {
+    border: 5px solid black;
+    margin: 10px;
+    height: 700px;
+    width: 60%;
+    display: flex;
+}
+
+.site-table {
+    margin: 70px 10px 10px 10px;
+    width: 60%;
+}
+
+.chart-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 80%;
+    height: 600px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.chart-text {  
+    grid-row: 2;
+    grid-column: 1 / 4;
+    justify-self: center;
+    margin: 0 10px 50px 10px;
+}
+
+.flex-container {
+    grid-column: 1;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2Ff3%2F3a%2F44%2Ff33a446caf7101c24d72e07772a92ee7.jpg&f=1&nofb=1');
+    background-size: cover;
+    margin: 10px 10px 0 10px;
+    display: flex;
+    height: 500px;
+    align-self: flex-start;
+}
+
+.container-item {
+    background: rgb(37, 56, 18);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    width: 70px;
+    line-height: 40px;
+    margin: 10px 10px 0 10px;
+}
+
+.grid-container {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    background-color: white;
+    height: 500px;
+    display: grid;
+    margin: 10px;
+    gap: 10px 2px;
+}
+
+.grid-item {
+    width: 100px;
+    line-height: 70px;
+    margin: 10px;
+}
+
+.grid-item-one {
+    grid-area: 2 / 1 / 4 / 1;
+    text-align: center;
+    font-size: 100px;
+}
+
+.grid-item-two {
+    grid-area: 1 / 1 / 1 / 4;
+    font-size: 25px;
+    line-height: 50px;
+    margin: 5px;
+    color: crimson;
+}
+
+.grid-item-three {
+    grid-area: 2 / 2 / 3 / 2;
+    text-align: end;
+    font-weight: 700;
+}
+
+.grid-item-four {
+    grid-area: 2 / 3 / 4 / 4;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F58%2Fd1%2F1c%2F58d11c731832f30fd65ff2096abf8636--albedo-dark-anime.jpg&f=1&nofb=1');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;  
+}
+
+.grid-item-five {
+    grid-area: 3 / 2 / 4 / 2;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.image-double {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 100px;
+    margin-top: 10px;
+    width: 80%;
+}
+
+aside {
+    margin-bottom: 70px;
+}
+
+footer {
+    background: rgb(223, 199, 199);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.submit-button {
+    margin: 20px 5px;
+    padding: 5px 10px;
+    border: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background: rgb(20, 131, 5);
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+
+}
+
+.submit-button:hover {
+    background: rgb(17, 22, 19);
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
